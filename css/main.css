@@ -37,7 +37,7 @@
 
 .col-4 {
     width: 33.33%;
-    min-width: 	250px;
+    min-width: 330px;
     text-align: center;
 }
 
@@ -71,18 +71,19 @@
 
 .col-12 {
     width: 100%;
+    text-align: center;
 }
 @media screen and (max-width: 900px) {
 
-    .biggy {display:none;}
+    .biggy {display:auto;}
 }
-@media screen and (max-width: 616px) {
+@media screen and (max-width: 645px) {
 
     .logo {display:none;}
 }
 @media screen and (max-width: 1150px) {
 
-    .trio {display:none;}
+    .trio {display:block;}
 }
 hr {
     color: #BCBBBB;
@@ -114,6 +115,20 @@ h4 {
 }
 .biggy {
     margin-top: 28px;
+    max-width:1200px;
+    max-height: 450px;
+    text-align: center;
+    width: 80%;
+}
+.trio {
+    width:100%;
+    max-width: 310px;
+    max-height: 200px;
+    min-height: 200px;
+    text-align: center;
+}
+.logo {
+    max-height: 170px;
 }
 a:link {
 color:#747704;
